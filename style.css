@@ -699,7 +699,7 @@ footer {
   }
   .modal__half{
     width: 100%;
-
+    height: 50vh;
   }
   .scroll{
     display: none;
