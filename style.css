@@ -704,6 +704,9 @@ footer {
   .scroll{
     display: none;
   }
+  .shape{
+    display: none;
+  }
 }
 
 /* small phones */
