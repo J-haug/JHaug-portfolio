@@ -386,6 +386,7 @@ nav {
 .modal__langauges {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .modal__language {
