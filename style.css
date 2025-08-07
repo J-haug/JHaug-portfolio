@@ -741,7 +741,9 @@ footer {
     line-height: 1.4;
     margin: 0;
   }
-
+  .link__hover-effect:hover:after {
+    width: 0;
+  }
 
   
 }
