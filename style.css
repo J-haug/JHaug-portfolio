@@ -169,7 +169,8 @@ header,
 .modal--open header,
 .modal--open #projects,
 .modal--open footer,
-.modal--open .shape{
+.modal--open .shape,
+.modal--open .mail__btn{
   opacity: 0;
   visibility: hidden;
   transition: all 400ms;
@@ -700,6 +701,31 @@ footer {
   .modal__half{
     width: 100%;
     height: 50vh;
+    padding: 20px;
+  }
+
+  .form__item{
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+ 
+  .input{
+    margin-bottom: 5px;
+    height: 20px;
+  }
+  .input__textarea{
+    height: 40px;
+  }
+  .form__submit{
+    height: 15px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal__sub-title{
+    margin: 5px 5px 5px 0;
   }
   .scroll{
     display: none;
@@ -707,11 +733,17 @@ footer {
   .shape{
     display: none;
   }
-  .modal{
-    position: relative;
+  .modal__about{
+    padding: 5px;
   }
-}
+  .modal__para{
+    line-height: 1.4;
+    margin: 0;
+  }
 
+
+  
+}
 /* small phones */
 
 @media (max-width: 480px){
