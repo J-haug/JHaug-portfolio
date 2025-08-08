@@ -681,6 +681,10 @@ footer {
   .title {
     font-size: 80px;
   }
+ 
+  .header{
+    margin-top: 100px;
+  }
   .header__para {
     font-size: 20px;
   }
