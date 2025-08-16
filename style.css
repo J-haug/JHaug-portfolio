@@ -530,6 +530,7 @@ nav {
 .project__image {
   width: 100%;
   transition: all 300ms ease;
+  transform: scale(1.04);
 }
 
 .project__wrapper {
@@ -537,6 +538,7 @@ nav {
   border-radius: 20px;
   box-shadow: 0 20px 8px 0 rgb(0, 0, 0, 0.45);
   overflow: hidden;
+  height: 100%;
 }
 
 .project__wrapper:hover .project__description {
@@ -549,7 +551,7 @@ nav {
 }
 
 .project__wrapper:hover .project__image {
-  transform: scale(1.07);
+  transform: scale(1.11);
   filter: blur(5px);
 }
 .project__description {
