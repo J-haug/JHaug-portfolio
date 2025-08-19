@@ -429,6 +429,7 @@ nav {
 .modal__sub-title {
   margin: 12px 0 24px 0;
   font-size: 14px;
+  
 }
 
 .modal__para {
@@ -766,9 +767,11 @@ footer {
     max-height: 100vh;
   }
   .modal__half{
-    padding: 0px 70px;
+    padding: 0px 40px;
   }
-  
+  .modal__sub-title--about{
+    display: none;
+  }
   
   .input__textarea{
     height: 40px;
@@ -785,6 +788,9 @@ footer {
   }
   .project__description--link{
     font-size: 40px;
+  }
+  .modal__langauges{
+    display: none;
   }
 }
 
@@ -818,6 +824,9 @@ footer {
   .project__description--link{
     font-size: 40px;
   }
+   .modal__langauges{
+    display: none;
+  }
 }
 @media (max-height: 375px) {
   .header {
@@ -838,10 +847,18 @@ footer {
    
   }
   .modal__half{
-    padding: 0px 70px;
+    padding: 0px 40px;
     height: 100vh;
   }
+  
   .project__description--link{
     font-size: 40px;
+  }
+  
+  .modal__sub-title--about{
+    display: none;
+  }
+  .modal__langauges{
+    display: none;
   }
 }
