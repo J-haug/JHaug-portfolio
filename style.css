@@ -381,40 +381,6 @@ nav {
   transform: translateX(-110%);
 }
 
-.modal__langauges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.modal__language {
-  width: 25%;
-  padding: 16px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 300ms ease;
-}
-
-.modal__language:hover .language__name {
-  transform: scale(1);
-}
-
-.modal__language:hover {
-  transform: scale(1.1);
-}
-
-.language__name {
-  position: absolute;
-  bottom: -10px;
-  transform: scale(0);
-  transition: all 300ms ease;
-}
-
-.modal__language--image {
-  width: 100%;
-}
 
 .modal__contact {
   background-color: #242424;
@@ -427,11 +393,16 @@ nav {
 }
 
 .modal__sub-title {
-  margin: 12px 0 24px 0;
+  margin: 4px 0 24px 0;
   font-size: 14px;
   
 }
-
+.modal__title--name{
+  color: var(--color__main);
+  font-size: 24px;
+  margin-top: 12px;
+  font-weight: 700;
+}
 .modal__para {
   margin-bottom: 12px;
   line-height: 1.75;
@@ -517,6 +488,39 @@ nav {
   z-index: 100;
 }
 /* projects */
+
+.langauges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+
+.language {
+  width: 14%;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.language__image:hover {
+  transform: scale(1.1);
+}
+
+.language__name {
+  position: absolute;
+  bottom: -10px;
+  transition: all 300ms ease;
+}
+
+.language__image {
+  width: 100%;
+  transform: scale(1);
+  transition: transform 300ms ease;
+}
 
 .project {
   margin: 40px 0;

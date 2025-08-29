@@ -89,6 +89,15 @@
           </div>
         </div>
       </header>
+      <img src="./assets/triangle.svg" class="shape shape-0">
+      <img src="./assets/triangle.svg" class="shape shape-1">
+      <img src="./assets/triangle.svg" class="shape shape-2">
+      <img src="./assets/triangle.svg" class="shape shape-3">
+      <img src="./assets/triangle.svg" class="shape shape-4">
+      <img src="./assets/triangle.svg" class="shape shape-5">
+      <img src="./assets/triangle.svg" class="shape shape-6">
+      <img src="./assets/triangle.svg" class="shape shape-7">
+      <img src="./assets/triangle.svg" class="shape shape-8">
       <button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-envelope"></i>
       </button>
@@ -97,8 +106,11 @@
       </a>
       <div class="modal">
         <div class="modal__about modal__half">
-          <h3 class="modal__title modal__title--about color__main">
+          <h3 class="modal__title modal__title--about color__secondary">
             Here's a bit more about me.
+          </h3>
+          <h3 class="modal__title--name">
+            Jeremiah Haugan
           </h3>
           <h4 class="modal__sub-title modal__sub-title--about">
             Software Engineer
@@ -108,43 +120,9 @@
             love to create things that <b class="color__secondary">improve peoples lives.</b>
             <br/>I have experience in frontend web development, game development, 
             video editing, voiceover work, 3D design, and 3Dprinting.
-            <br/>I am currently looking for a entry level <b class="color__secondary">frontend engineering role.</b>
+            <br/>I'm currently seeking an entry level <b class="color__secondary">frontend software engineering role.</b>
           </p>
-          <div class="modal__langauges">
-            <figure class="modal__language">
-              <img
-                class="modal__language--image"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                alt=""
-              />
-              <span class="language__name">HTML</span>
-            </figure>
-            <figure class="modal__language">
-              <img
-                class="modal__language--image"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817"
-                alt=""
-              />
-              <span class="language__name">CSS</span>
-            </figure>
-            <figure class="modal__language">
-              <img
-                class="modal__language--image"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s"
-                alt=""
-              />
-              <span class="language__name">JavaScript</span>
-            </figure>
-            <figure class="modal__language">
-              <img
-                class="modal__language--image"
-                src="https://godotengine.org/assets/press/icon_color.png"
-                alt=""
-              />
-              <span class="language__name">GDScript</span>
-            </figure>
           </div>
-        </div>
         <div class="modal__half modal__contact">
           <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
           <h3 class="modal__sub-title modal__sub-title--contact">
@@ -176,19 +154,48 @@
           <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
         </div>
       </div>
-      <img src="./assets/triangle.svg" class="shape shape-0">
-      <img src="./assets/triangle.svg" class="shape shape-1">
-      <img src="./assets/triangle.svg" class="shape shape-2">
-      <img src="./assets/triangle.svg" class="shape shape-3">
-      <img src="./assets/triangle.svg" class="shape shape-4">
-      <img src="./assets/triangle.svg" class="shape shape-5">
-      <img src="./assets/triangle.svg" class="shape shape-6">
-      <img src="./assets/triangle.svg" class="shape shape-7">
-      <img src="./assets/triangle.svg" class="shape shape-8">
+      
     </section>
     <section id="projects" onmousemove="moveBackground(event)">
       <div class="container">
         <div class="row">
+          <h1 class="section__title">
+            My <span class="color__main">Languages</span>
+          </h1>
+          <div class="langauges">
+            <figure class="language">
+              <img
+                class="language__image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="language">
+              <img
+                class="language__image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817"
+                alt=""
+              />
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="language">
+              <img
+                class="language__image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s"
+                alt=""
+              />
+              <span class="language__name">JavaScript</span>
+            </figure>
+            <figure class="language">
+              <img
+                class="language__image"
+                src="https://godotengine.org/assets/press/icon_color.png"
+                alt=""
+              />
+              <span class="language__name">GDScript</span>
+            </figure>
+          </div>
           <h1 class="section__title">
             Here are some of my <span class="color__main">web projects</span>
           </h1>
