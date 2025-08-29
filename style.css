@@ -394,13 +394,13 @@ nav {
 }
 
 .modal__sub-title {
-  margin: 4px 0 24px 0;
+  margin: 4px 0 14px 0;
   font-size: 14px;
   
 }
 .modal__title--name{
   color: var(--color__main);
-  font-size: 24px;
+  font-size: 32px;
   margin-top: 12px;
   font-weight: 700;
 }
