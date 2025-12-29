@@ -181,7 +181,7 @@ header,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-circle-half-stroke,
 .dark-theme .header__para,
-.dark-theme .language__name{
+.dark-theme .language__name {
   color: white;
 }
 
@@ -382,7 +382,6 @@ nav {
   transform: translateX(-110%);
 }
 
-
 .modal__contact {
   background-color: #242424;
   color: white;
@@ -396,9 +395,8 @@ nav {
 .modal__sub-title {
   margin: 4px 0 14px 0;
   font-size: 14px;
-  
 }
-.modal__title--name{
+.modal__title--name {
   color: var(--color__main);
   font-size: 32px;
   margin-top: 12px;
@@ -523,7 +521,7 @@ nav {
   transform: scale(1);
   transition: transform 300ms ease;
 }
-.project__list{
+.project__list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -531,13 +529,13 @@ nav {
 .project {
   margin: 40px 0;
   width: 80%;
-
 }
 
 .section__title {
   text-align: center;
   font-size: 48px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .project__image {
@@ -696,8 +694,8 @@ footer {
   .title {
     font-size: 80px;
   }
- 
-  .header{
+
+  .header {
     margin-top: 100px;
   }
   .header__para {
@@ -757,17 +755,17 @@ footer {
   .link__hover-effect:hover:after {
     width: 0;
   }
-  .project__description--link{
+  .project__description--link {
     font-size: 40px;
   }
-  .project{
+  .project {
     width: 100%;
   }
-  .langauges{
+  .langauges {
     flex-wrap: wrap;
     height: auto;
   }
-  .language{
+  .language {
     width: 44%;
     padding-bottom: 24px;
   }
@@ -789,30 +787,29 @@ footer {
   .modal {
     max-height: 100vh;
   }
-  .modal__half{
+  .modal__half {
     padding: 0px 40px;
   }
-  .modal__sub-title--about{
+  .modal__sub-title--about {
     display: none;
   }
-  
-  .input__textarea{
+
+  .input__textarea {
     height: 40px;
   }
-  .input{
+  .input {
     height: 20px;
   }
-  .form__submit{
+  .form__submit {
     height: 10px;
     width: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .project__description--link{
+  .project__description--link {
     font-size: 40px;
   }
-  
 }
 
 /* small phones */
@@ -842,10 +839,10 @@ footer {
   .modal__half {
     padding: 40px;
   }
-  .project__description--link{
+  .project__description--link {
     font-size: 40px;
   }
-   .modal__langauges{
+  .modal__langauges {
     display: none;
   }
 }
@@ -865,21 +862,20 @@ footer {
   .modal {
     max-height: 100vh;
     flex-direction: row;
-   
   }
-  .modal__half{
+  .modal__half {
     padding: 0px 40px;
     height: 100vh;
   }
-  
-  .project__description--link{
+
+  .project__description--link {
     font-size: 40px;
   }
-  
-  .modal__sub-title--about{
+
+  .modal__sub-title--about {
     display: none;
   }
-  .modal__langauges{
+  .modal__langauges {
     display: none;
   }
 }
