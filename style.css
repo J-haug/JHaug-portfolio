@@ -284,6 +284,9 @@ nav {
   align-items: center;
   border-radius: 50%;
 }
+.no-click{
+  cursor: not-allowed;
+}
 
 .mail__btn {
   width: 70px;
