@@ -595,7 +595,7 @@ nav {
 }
 
 .project__description--title {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .project__description--sub-title {
@@ -764,6 +764,9 @@ footer {
   }
   .project__description--link {
     font-size: 40px;
+  }
+  .project__description--title{
+    font-size: 32px;
   }
   .project {
     width: 100%;
